@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./assets/style/style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+</head>
+
+<body>
+
+    <!--================ Header section ===================-->
+
+    <div class="header-section bg-color border-b-2 border-white">
+        <header class="container mx-auto py-3 flex justify-between ">
+            <div class="flex items-center">
+                <div class="logo">
+                    <p class="font-bold text-lg">FindProfessionals</p>
+
+                </div>
+                <div class="manu ml-10">
+                    <ul class="flex text-[#828282] text-[14px]">
+                        <li class="mr-4 cursor-pointer hover:text-black">Selling</li>
+                        <li class="mr-4 cursor-pointer hover:text-black">Rent an Office</li>
+                        <li class="mr-4 cursor-pointer hover:text-black">Buying</li>
+                </div>
+            </div>
+            <div class="flex">
+                <img class="bg-white rounded-full p-4 mr-4 cursor-pointer" src="./assets/images/search.svg"
+                    alt="search">
+                <img class="bg-white rounded-full p-4 mr-4 cursor-pointer" src="./assets/images/Vector.svg" alt="cart">
+                <img class="cursor-pointer" src="./assets/images/Ellipse 1.svg" alt="user">
+        </header>
+    </div>
+
+
+    <!--================ Hero section ===================-->
+    <div class="bg-color pb-10 pt-20">
+        <div class="container mx-auto pl-12 flex justify-between">
+            <div class="left-content w-[45%] relative">
+                <p class="uppercase professionals text-[14px]">There are only professionals</p>
+                <img class="absolute -right-[21px] h-[184px] top-[76px]" src="./assets/images/Arrow 1.png" />
+                <h1 class="text-[50px] text-black font-[600] py-2 leading-[60px]">Hire a Freelancer on FindProfessionals
+                </h1>
+                <p class="text-[14px] py-2 pr-10">A selection of great freelancers are ready to work for you, get your
+                    job
+                    done in a variety of categories</p>
+
+                <form class="py-3 drop-shadow-md">
+                    <label for="default-search"
+                        class="bg-[#FCFCFC] mb-2 text-sm font-medium text-gray-900 sr-only dark:text-gray-300">Search</label>
+                    <div class="relative">
+                        <div class="flex absolute inset-y-0 left-0 items-center pl-3 pointer-events-none">
+                            <svg aria-hidden="true" class="w-5 h-5 text-gray-500 dark:text-gray-400" fill="none"
+                                stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+                            </svg>
+                        </div>
+                        <input type="search" id="default-search"
+                            class="block p-4 pl-10 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-transparent focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                            placeholder="What are you looking for?" required>
+                        <button type="submit"
+                            class="text-white absolute right-2.5 bottom-2.5 bg-[#15C077]  focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Search</button>
+                    </div>
+                </form>
+
+                <div class="review py-8">
+                    <div class="flex items-center">
+                        <img class="bg-white rounded-full p-2 mr-3" src="./assets/images/hand.png" />
+                        <div>
+                            <p class="text-[14px]">We already have 75 happy clients</p>
+                            <div class="flex py-2">
+                                <img class="mr-2" src="./assets/images/star.svg" />
+                                <img class="mr-2" src="./assets/images/star.svg" />
+                                <img class="mr-2" src="./assets/images/star.svg" />
+                                <img class="mr-2" src="./assets/images/star.svg" />
+                                <img class="mr-2" src="./assets/images/star.svg" />
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="right-content w-[50] relative">
+                <div class="greate-job bg-white w-[28%] rounded-lg absolute left-[28px]">
+                    <div class="review py-2 px-2">
+                        <div class="flex items-center">
+                            <img class="bg-white border border-gray-200 rounded-full p-2 mr-3"
+                                src="./assets/images/bill.png" />
+                            <div>
+                                <p class="text-[14px] font-[600] ">Great Job</p>
+                                <div class="flex py-[5px]">
+                                    <img class="mr-[2px]" src="./assets/images/star.svg" />
+                                    <img class="mr-[2px]" src="./assets/images/star.svg" />
+                                    <img class="mr-[2px]" src="./assets/images/star.svg" />
+                                    <img class="mr-[2px]" src="./assets/images/star.svg" />
+                                    <img class="mr-[2px]" src="./assets/images/star.svg" />
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <img class="w-[550px] h-[550px] " src="./assets/images/Ellipse 3.png" alt="ring" />
+                <img class="w-[450px] h-[450px] absolute top-[50px] left-[48px] " src="./assets/images/Ellipse 19.png"
+                    alt="ring" />
+                <img class="absolute top-[-40px] w-[500px] h-[600px]" src="./assets/images/image 6.png" alt="manpic" />
+                <div class="briefcase absolute top-[186px] bg-white p-2 rounded-full left-[-9px]">
+                    <img src="./assets/images/briefcase.png" alt="briefcase" />
+                </div>
+
+
+                <div class="icons-users bg-white w-[22%] rounded-lg absolute right-[-32px] top-[100px]">
+                    <div class="review py-[8px] px-2">
+                        <div class="flex items-center">
+                            <img class=" mr-3" src="./assets/images/man2.png" />
+                            <img class=" mr-3 absolute pl-[22px] z-10" src="./assets/images/man4.png" />
+                            <img class=" mr-3 absolute pl-[45px] z-20" src="./assets/images/man5.png" />
+                            <img class=" mr-3 absolute pl-[65px] z-30" src="./assets/images/man6.png" />
+                        </div>
+                    </div>
+                </div>
+
+                <div class="greate-job bg-white w-[40%] rounded-lg absolute right-[-32px] top-[310px]">
+                    <div class="review py-2 px-2">
+                        <div class="flex items-center">
+                            <img class=" mr-3" src="./assets/images/man2.png" />
+                            <div>
+                                <p class="text-[14px] font-[600] ">Dianne Russell</p>
+                                <p class="text-[12px]">Freelancer</p>
+                            </div>
+                        </div>
+                        <p class="text-[12px] pt-2 px-2">Hey there, Robert!<br>
+                            Finishing up a job. I'll send you the results in a few minutes</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="drop-shadow-md py-4 px-10 bg-white flex rounded-lg absolute right-0 items-center">
+            <img class="w-[131px] h-[45px] mr-14" src="./assets/images/google.png" alt="logo" />
+            <img class="w-[116px] h-[23px] mr-14" src="./assets/images/facebook.png" alt="logo" />
+            <img class="w-[148px] h-[42px] mr-14" src="./assets/images/apple.png" alt="logo" />
+            <img class="w-[100px] h-[35px]" src="./assets/images/ebay.png" alt="logo" />
+
+        </div>
+    </div>
+
+
+    <!--================ How do  we work section ===================-->
+    <div class="container mx-auto pt-20 pl-12 pb-10">
+        <div class="content flex justify-between">
+            <div class="w-[40%]">
+                <p class="text-[14px] uppercase professionals tracking-[2px]">How do we work</p>
+                <h1 class="text-3xl py-2 font-[600]">We are offering a solution to your business needs</h1>
+            </div>
+            <p class="w-[50%] pt-8 text-[14px] pr-10">From the best freelancers from all around the world to having your
+                own office space, we've got you covered with all the necessary tools to help you and your business grow
+                successful</p>
+        </div>
+
+        <div class="boxes pt-16 flex justify-between">
+            <div class="bg-[#F4F8F3] p-6 rounded-lg w-[15%] ">
+                <h1 class="font-bold text-5xl text-center">513</h1>
+                <p class="text-[14px] text-center py-2">Registered Users</p>
+            </div>
+            <div class="bg-[#F4F8F3] p-6 rounded-lg w-[15%] ">
+                <h1 class="font-bold text-5xl text-center">87</h1>
+                <p class="text-[14px] text-center py-2">Completed Tasks</p>
+            </div>
+            <div class="bg-[#F4F8F3] p-6 rounded-lg w-[15%] ">
+                <h1 class="font-bold text-5xl text-center">75</h1>
+                <p class="text-[14px] text-center py-2">Happy Clients</p>
+            </div>
+        </div>
+
+    </div>
+
+    <!--================ Popular services section ===================-->
+
+    <div class=" py-20 bg-[#F4F8F3]">
+        <div class="pl-40">
+        <p class="text-[14px] uppercase professionals tracking-[2px]">Popular services</p>
+        <div class="slider">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"
+                        style="background-image: url('./assets/images/Rectangle\ 20.png');  background-position: center;   background-repeat: no-repeat;">
+                        <div class="swiper-content">
+
+                            <p class="text-white text-[25px] font-[500]">
+                                Programming
+                            </p>
+                            <p class="text-[#FCFCFC] text-[14px]">264 specialists</p>
+                            <button class="mb-6 mt-4 text-white border border-white px-3 py-2 rounded text-[14px]">
+                                View offers
+                            </button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide"
+                        style="background-image: url('./assets/images/slider2.png');  background-position: center;   background-repeat: no-repeat;">
+                        <div class="swiper-content">
+
+                            <p class="text-white text-[25px] font-[500]">
+                                Graphic design
+                            </p>
+                            <p class="text-[#FCFCFC] text-[14px]">264 specialists</p>
+                            <button class="mb-6 mt-4 text-white border border-white px-3 py-2 rounded text-[14px]">
+                                View offers
+                            </button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide"
+                        style="background-image: url('./assets/images/slider3.png');  background-position: center;   background-repeat: no-repeat;">
+                        <div class="swiper-content">
+
+                            <p class="text-white text-[25px] font-[500]">
+                                Voice Acting
+                            </p>
+                            <p class="text-[#FCFCFC] text-[14px]">264 specialists</p>
+                            <button class="mb-6 mt-4 text-white border border-white px-3 py-2 rounded text-[14px]">
+                                View offers
+                            </button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide"
+                        style="background-image: url('./assets/images/Rectangle\ 20.png');  background-position: center;   background-repeat: no-repeat;">
+                        <div class="swiper-content">
+
+                            <p class="text-white text-[25px] font-[500]">
+                                Copy writing
+                            </p>
+                            <p class="text-[#FCFCFC] text-[14px]">264 specialists</p>
+                            <button class="mb-6 mt-4 text-white border border-white px-3 py-2 rounded text-[14px]">
+                                View offers
+                            </button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide"
+                        style="background-image: url('./assets/images/Rectangle\ 20.png');  background-position: center;   background-repeat: no-repeat;">
+                        <div class="swiper-content">
+
+                            <p class="text-white text-[25px] font-[500]">
+                                Programming
+                            </p>
+                            <p class="text-[#FCFCFC] text-[14px]">264 specialists</p>
+                            <button class="mb-6 mt-4 text-white border border-white px-3 py-2 rounded text-[14px]">
+                                View offers
+                            </button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide"
+                        style="background-image: url('./assets/images/Rectangle\ 20.png');  background-position: center;   background-repeat: no-repeat;">
+                        <div class="swiper-content">
+
+                            <p class="text-white text-[25px] font-[500]">
+                                Programming
+                            </p>
+                            <p class="text-[#FCFCFC] text-[14px]">264 specialists</p>
+                            <button class="mb-6 mt-4 text-white border border-white px-3 py-2 rounded text-[14px]">
+                                View offers
+                            </button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide"
+                        style="background-image: url('./assets/images/Rectangle\ 20.png');  background-position: center;   background-repeat: no-repeat;">
+                        <div class="swiper-content">
+
+                            <p class="text-white text-[25px] font-[500]">
+                                Programming
+                            </p>
+                            <p class="text-[#FCFCFC] text-[14px]">264 specialists</p>
+                            <button class="mb-6 mt-4 text-white border border-white px-3 py-2 rounded text-[14px]">
+                                View offers
+                            </button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide"
+                        style="background-image: url('./assets/images/Rectangle\ 20.png');  background-position: center;   background-repeat: no-repeat;">
+                        <div class="swiper-content">
+
+                            <p class="text-white text-[25px] font-[500]">
+                                Programming
+                            </p>
+                            <p class="text-[#FCFCFC] text-[14px]">264 specialists</p>
+                            <button class="mb-6 mt-4 text-white border border-white px-3 py-2 rounded text-[14px]">
+                                View offers
+                            </button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide"
+                        style="background-image: url('./assets/images/Rectangle\ 20.png');  background-position: center;   background-repeat: no-repeat;">
+                        <div class="swiper-content">
+
+                            <p class="text-white text-[25px] font-[500]">
+                                Programming
+                            </p>
+                            <p class="text-[#FCFCFC] text-[14px]">264 specialists</p>
+                            <button class="mb-6 mt-4 text-white border border-white px-3 py-2 rounded text-[14px]">
+                                View offers
+                            </button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide"
+                        style="background-image: url('./assets/images/Rectangle\ 20.png');  background-position: center;   background-repeat: no-repeat;">
+                        <div class="swiper-content">
+
+                            <p class="text-white text-[25px] font-[500]">
+                                Programming
+                            </p>
+                            <p class="text-[#FCFCFC] text-[14px]">264 specialists</p>
+                            <button class="mb-6 mt-4 text-white border border-white px-3 py-2 rounded text-[14px]">
+                                View offers
+                            </button>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- <div class="swiper-pagination"></div> -->
+            </div>
+        </div>
+        </div>
+
+        <div class="container mx-auto py-10 pl-12 flex">
+            <div class="left-content w-[50%] bg-white rounded-l-[20px] px-10 py-10">
+                <p class="text-[14px] uppercase professionals tracking-[2px]">Rent an Office</p>
+                <h1 class="text-2xl font-[500] pt-3 pb-6">Need an office space?</h1>
+                <p class="text-[14px] pb-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam architecto commodi</p>
+            
+                <div class="flex bg-[#F3F3F3] py-3 px-4 rounded-lg mr-6">
+                    <img src="./assets/images/map-pin.png">
+                    <input class="outline-none bg-[#F3F3F3] ml-2" type="search" placeholder="Select your location">
+                </div>
+
+                <div class="flex flex-wrap pt-8 pb-8">
+                    <div class="w-[45%] mr-2 rounded-lg border border-[#2DC015] py-2 px-2 text-[14px]">Open Workspace Membership</div>
+                    <div class="w-[20%] mr-2 rounded-lg border border-[#2DC015] py-2 px-2 text-[14px]">Desk Space</div>
+                    <div class="w-[23%] mr-2 rounded-lg border border-[#2DC015] py-2 px-2 text-[14px]">Office Space</div>
+                    <div class="w-[23%] mt-2 mr-2 rounded-lg border border-[#2DC015] py-2 px-2 text-[14px]">Event Space</div>
+                    <div class="w-[28%] mt-2 mr-2 rounded-lg border border-[#2DC015] py-2 px-2 text-[14px]">Residential Space</div>
+                    <div class="w-[29%] mt-2 rounded-lg border border-[#2DC015] py-2 px-2 text-[14px]">Retail Franshising</div>
+                </div>
+            </div>
+            <div class="right-content w-[43%] rounded-r-[20px]"  style="background-image: url('./assets/images/space.png');  background-position: center;   background-repeat: no-repeat; background-size: 552px 440px;">
+                <!-- <img class="h-[550px] w-full" src="./assets/images/space.png" /> -->
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!--================ Membership section ===================-->
+
+    <div class="bg-[#F4F8F3] pb-12">
+        <div class="container mx-auto px-12 py-8 ">
+            <div class="bg-white py-10 pl-10 pr-2 rounded-[30px] flex justify-between">
+            <div class="right-content w-[40%] pr-8">
+                <p class="text-[14px] uppercase professionals tracking-[2px]">Membership</p>
+                <h1 class="text-2xl font-[600] pt-3 pb-6 pr-[90px]">Open Workspace Membership</h1>
+                <p class="text-[14px] pb-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam architecto commodi aliquid itaque excepturi eaque repudiandae ipsum vel.</p>
+                <button class="bg-[#2DC015] py-2 px-3 rounded-lg text-white text-[12px]">Became a member</button>
+           
+            </div>
+       
+            <div class="left-content w-[45%]">
+                    <div class="bg-[#F4F8F3] py-6 px-8 rounded-l-[20px] flex">
+                        <div class="">
+                        <img class="w-[40px]" src="./assets/images/globe.png">
+                        </div>
+                        <div class="ml-3">
+                            <p class="font-[500] text-lg">Global Access</p>
+                            <p class="text-[14px] py-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam architecto commodi</p>
+
+                        </div>
+
+                    </div>
+                    <div class="bg-[#F4F8F3] py-6 px-8 rounded-l-[20px] flex my-4">
+                        <div class="">
+                        <img class="w-[40px]" src="./assets/images/clock.png">
+                        </div>
+                        <div class="ml-3">
+                            <p class="font-[500] text-lg">Always Open</p>
+                            <p class="text-[14px] py-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam architecto commodi</p>
+
+                        </div>
+
+                    </div>
+                    <div class="bg-[#F4F8F3] py-6 px-8 rounded-l-[20px] flex">
+                        <div class="">
+                        <img class="w-[40px]" src="./assets/images/dollar sign.png">
+                        </div>
+                        <div class="ml-3">
+                            <p class="font-[500] text-lg">Affordable Service</p>
+                            <p class="text-[14px] py-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam architecto commodi</p>
+
+                        </div>
+
+                    </div>
+            </div>
+        </div>
+
+        <p class="text-[14px] uppercase professionals tracking-[2px] pt-20">FAQ</p>
+
+        <div class="flex items-centr justify-between border-b-[1.5px] border-[#15C077] py-8">
+            <p class="font-bold text-xl">What’s the monthly cost?</p>
+            <img class="w-[15px] h-[20px]" src="./assets/images/lessden.png">
+        </div>
+        <div class="flex items-centr justify-between border-b-[1.5px] border-[#15C077] py-8">
+            <p class="font-bold text-xl">Why choose us?</p>
+            <img class="w-[15px] h-[20px]" src="./assets/images/lessden.png">
+        </div>
+
+        </div>
+
+    </div>
+
+
+    <!--================ secondlast section ===================-->
+
+
+<div class="bg-white">
+    <div class=" container mx-auto px-12 py-12">
+        <div class="bg-[#1F1E20] py-10 px-10 rounded-[30px] flex flex-col items-center relative">
+
+            <img class="rounded-full w-[40px] absolute top-[-19px] right-[160px] border-2 border-white" src="./assets/images/man2.png">
+            <img class="rounded-full w-[40px] absolute top-[-19px] left-[160px] border-2 border-white" src="./assets/images/man4.png">
+            <img class="rounded-full w-[40px] absolute bottom-[-17px] left-[60px] border-2 border-white" src="./assets/images/man5.png">
+            <img class="rounded-full w-[40px] absolute bottom-[117px] left-[30px] border-2 border-white" src="./assets/images/man5.png">
+            <img class="rounded-full w-[40px] absolute bottom-[200px] left-[-30px] border-2 border-white" src="./assets/images/man5.png">
+
+            <img class="rounded-full w-[40px] absolute bottom-[150px] right-[130px] border-2 border-white" src="./assets/images/man5.png">
+            <img class="rounded-full w-[40px] absolute bottom-[200px] right-[-30px] border-2 border-white" src="./assets/images/man5.png">
+            <img class="rounded-full w-[40px] absolute bottom-[-10px] right-[-20px] border-2 border-white" src="./assets/images/man5.png">
+
+            <p class="text-white font-[500] text-[40px] text-center">Top rated freelancers<br> are waiting for you</p>
+            <form class="py-3 drop-shadow-md w-[50%] pt-10">
+                <label for="default-search"
+                    class="bg-[#FCFCFC] mb-2 text-sm font-medium text-gray-900 sr-only dark:text-gray-300">Search</label>
+                <div class="relative W-[50%]">
+                    <div class="flex absolute inset-y-0 left-0 items-center pl-3 pointer-events-none">
+                        <svg aria-hidden="true" class="w-5 h-5 text-gray-500 dark:text-gray-400" fill="none"
+                            stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+                        </svg>
+                    </div>
+                    <input type="search" id="default-search"
+                        class="block p-4 pl-10 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-transparent focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                        placeholder="What are you looking for?" required>
+                    <button type="submit"
+                        class="text-white absolute right-2.5 bottom-2.5 bg-[#15C077]  focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Search</button>
+                </div>
+            </form>
+        
+        </div>
+       
+    </div>
+
+</div>
+
+  <!--================ footer section ===================-->
+
+  <footer class="bg-[#1F1E20] py-10">
+    <div class="container mx-auto px-12 flex justify-between">
+        <div class="">
+            <h1 class="text-white font-bold text-[xl] pb-4">FindProfessionals</h1>
+            <button class="bg-[#2DC015] py-2 px-3 rounded-lg text-white text-[12px]">Became a member</button>
+        </div>
+        <div class="text-[#828282]">
+            <ul>
+            <li class="mb-2 cursor-pointer">Selling</li>   
+            <li class="mb-2 cursor-pointer">Rent an Office</li>  
+            <li class="mb-2 cursor-pointer">Buying</li> 
+            <ul>
+        </div>
+         <div class="text-[#828282]">
+            <ul>
+            <li class="mb-2 cursor-pointer">About company</li>   
+            <li class="mb-2 cursor-pointer">FAQ</li>  
+            <li class="mb-2 cursor-pointer">Terms of Service</li> 
+            <ul>
+        </div>
+
+        <div class="text-[#828282] w-[30%]">
+            <p>Get your job done from the top selection of the best freelancers in the world.</p>
+            <form class="py-3 drop-shadow-md w-[100%] pt-10">
+                <label for="default-search"
+                    class="bg-[#FCFCFC] mb-2 text-sm font-medium text-gray-900 sr-only dark:text-gray-300">Search</label>
+                <div class="relative W-[50%]">
+                    <div class="flex absolute inset-y-0 left-0 items-center pl-3 pointer-events-none">
+                        <svg aria-hidden="true" class="w-5 h-5 text-gray-500 dark:text-gray-400" fill="none"
+                            stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+                        </svg>
+                    </div>
+                    <input type="search" id="default-search"
+                        class="block p-4 pl-10 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-transparent focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                        placeholder="What are you looking for?" required>
+                    
+                </div>
+            </form>
+        
+        </div>
+
+    </div> 
+    <div class="border-t-[1.2px] border-[#828282] mt-10">
+    <div class="container mx-auto px-12 flex justify-between pt-4">
+        <p class="text-[#828282]">Copyright 2021 All rights reserved</p>
+        <button class="flex items-center text-[#828282] py-2 px-3 border-[1.2px] border-[#828282] rounded"><span class="mr-2"><img src="./assets/images/Shape.png"/></span>Go to the top</button>
+    </div>
+</div>
+    </footer>
+
+
+
+
+
+
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 3.5,
+            spaceBetween: 30,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true
+            }
+        });
+    </script>
+
+</body>
+
+</html>
